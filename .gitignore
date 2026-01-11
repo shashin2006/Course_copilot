@@ -1,0 +1,13 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# ML / DL
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
