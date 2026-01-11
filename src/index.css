@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: load a system font stack */
+@layer base {
+	html, body, #root { height: 100%; }
+	body {
+		@apply bg-gray-50 text-gray-800 antialiased;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+	h1,h2,h3,h4 { @apply text-gray-900; }
+}
+
+@layer components {
+	.card { @apply bg-white rounded-lg shadow p-6; }
+	.btn { @apply inline-flex items-center px-4 py-2 rounded-md bg-blue-600 text-white hover:bg-blue-700; }
+}
